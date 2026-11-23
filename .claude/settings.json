@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-clone-mods": {
+      "source": { "source": "github", "repo": "ghamm20/anthropic-claude-clone-v1" }
+    }
+  },
+  "enabledPlugins": {
+    "santa-workshop@claude-clone-mods": true
+  }
+}
