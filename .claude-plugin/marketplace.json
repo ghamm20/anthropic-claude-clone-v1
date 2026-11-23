@@ -1,0 +1,16 @@
+{
+  "name": "claude-clone-mods",
+  "owner": { "name": "ghamm20" },
+  "plugins": [
+    {
+      "name": "santa-workshop",
+      "source": "./claude-mods/santa-workshop",
+      "description": "North Pole Christmas theme with a Santa pane whose sack fills as a task progresses."
+    },
+    {
+      "name": "clay-ivory",
+      "source": "./claude-mods/clay-ivory",
+      "description": "Warm ivory and clay color theme, light and dark."
+    }
+  ]
+}

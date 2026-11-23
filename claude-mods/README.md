@@ -25,8 +25,22 @@ Ivory and clay colors in light and dark mode. Use one theme at a time: whichever
 
 ## Install
 
-Copy a mod folder into a folder that holds your Claude Code plugins, then start Claude Code with it:
+This repository is a plugin marketplace named `claude-clone-mods`.
 
-    claude --plugin-dir claude-mods/santa-workshop
+**In any Claude Code session opened on this repository** (cloud or local): nothing to do. `.claude/settings.json` adds the marketplace and turns on `santa-workshop`. Claude Code asks you to trust the repository's settings the first time.
+
+**On your own computer, for every session.** At the prompt of a terminal session:
+
+    /plugin install santa-workshop --marketplace ghamm20/anthropic-claude-clone-v1
+
+From a shell:
+
+    claude plugin install santa-workshop --marketplace ghamm20/anthropic-claude-clone-v1
+
+In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins. Choose Add marketplace and enter `ghamm20/anthropic-claude-clone-v1`, then Add plugin and pick `santa-workshop`.
+
+If the repository is private, your machine needs a GitHub credential first (`gh auth login`, then `gh auth setup-git`).
+
+**Switch themes:** install `clay-ivory` the same way and disable `santa-workshop`. Only one theme shows at a time.
 
 Themes draw only in the desktop and mobile apps. A terminal shows the plain progress bar instead.
