@@ -1,0 +1,1 @@
+{ "name": "santa-workshop", "version": "0.1.0", "description": "Christmas theme with a Santa pane whose present bag fills as a task progresses and who dances when it finishes.", "types": "./types/index.d.ts" }
